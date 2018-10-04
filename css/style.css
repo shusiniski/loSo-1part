@@ -1,18 +1,94 @@
-/* General CSS */
+* {
 
-body
-{
-	padding-top: 100px;
-	font-family: Arial, sans-serif;
-	color: #333;
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+p {
+
+	font-size: 14px;
+}
+
+/*--- ------- Header ------------- */
+
+.header {
+
+	background-image: url("../images/header-bg.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover;
+}
+
+.header-overlay {
+
+	background-color: rgba(31,31,31, 0.75);
+}
+.logo {
+
+	padding-bottom: 50px;
+
+}
+.header-txt h1 {
+
+	color: #fff;
+	font-size: 35px;
+	font-weight: 300;
+	line-height: 45px;
+	text-transform: uppercase;
+}
+.header-txt p {
+
+	color: #fff;
+	font-size: 17px;
+	line-height: 28px;
+	font-weight: 300;
+}
+.header-btns {
+
+	margin-top: 90px;
+	margin-bottom: 56px;
+}
+
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited
+ {
+
+ 	background: transparent;
+ 	border-color: #129CF3;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	padding-left: 30px;
+ 	padding-right: 30px;
+ 	font-size: 19px;
+ 	text-transform: uppercase;
+ 	border-radius: 3px;
+ 	transition: all 1s;
+ 	-webkit-transition: all 1s;
+ 	-moz-transition: all 1s;
+ 	-o-transition: all 1s;
+
+
+
 }
 
 
 
-/* Footer */
 
-#footer-p {
+.header-iphone img {
 
-	padding: 30px 0;
-	
+	width: 100%;
 }

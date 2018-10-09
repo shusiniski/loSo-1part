@@ -290,3 +290,169 @@ p {
     line-height: 27px;
     padding-top: 50px;
 }
+
+/* ========= Features ============= */
+.features-inner-wrapper {
+
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+.left-feature-item  {
+
+	position: relative;
+	padding-right: 90px;
+	margin-bottom: 65px;
+	text-align: right;
+	margin-top: 35px;
+}
+
+.left-feature-item-icon {
+
+	position: absolute;
+	right: 0;
+	top: -8px;
+    font-size: 46px;
+	color: #129CF3;
+	width: 90px;
+	height: 90px;
+	text-align: center;
+
+
+}
+.left-feature-item h3 {
+
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 21px;
+	color: #333;
+
+}
+.left-feature-item p {
+
+	color: #333;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 25px;
+}
+.feature-iphone img {
+
+	width: 100%;
+}
+.right-feature-item {
+
+	position: relative;
+	padding-left: 90px;
+	padding-bottom: 65px;
+	margin-top: 35px;
+}
+.right-feature-item-icon {
+
+	position: absolute;
+	left: 0;
+	top: -8px;
+	font-size: 46px;
+	color: #129CF3;
+	width: 90px;
+	height: 90px;
+	text-align: center;
+
+}
+.right-feature-item h3 {
+
+   text-transform: uppercase;
+   font-size: 25px;
+   font-weight:700;
+   margin-bottom: 21px;
+   color: #333;
+
+}
+
+.right-feature-item p {
+
+     color: #333;
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 25px;
+}
+
+/* ========= Purchase Now ============= */
+
+.purchase-now {
+
+	background-color: #1a1a1a;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+.purchase-now p {
+
+	color: #dfdfdf;
+	font-size: 18px;
+	font-weight: 300;
+}
+.btn-pruchase-now,
+.btn-pruchase-now:active.
+.btn-pruchase-now:focus,
+.btn-pruchase-now:visited 
+{
+
+	background-color: #129CF3;
+    border: 1px solid #129CF3;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.btn-pruchase-now:hover {
+
+	background-color: #1274B1;
+	border-color: #316B90;
+}
+
+/* ========= Counter ============= */
+.counter {
+
+	background-image: url("../images/counter-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+}
+
+.counter-overlay {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: rgba(0, 0, 0, .4);
+}
+.counter-item i {
+    color: #129CF3;
+    font-size: 60px;
+}
+.counter-item h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #D7DADB;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+.counter-item p {
+    color: #D7DADB;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/* ========= Download Now ============= */
